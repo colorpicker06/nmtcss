@@ -1,0 +1,312 @@
+*{
+  padding : 0px; margin: 0px;
+  font-family: 'Jua', sans-serif;
+}
+
+li,ul{
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+}
+
+body{
+  background-image: url(image/background2.png);
+  font-family: 'Jua', sans-serif;
+}
+
+#one{
+  width: 500px;
+  height: 300px;
+  transition: width 1s;
+  border:1px solid black;
+}
+
+#one:hover{
+  width: 700px;
+}
+
+
+body p{
+  paddint:-1px;
+}
+
+header{
+  align:center;
+  height: 50;
+  margin: 30px;
+}
+
+header h1 a{
+  text-decoration: none;
+  color: white;
+  text-shadow: 3px 3px 3px gray;
+  letter-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+  background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 32%;
+}
+
+li {
+    color: #fff;
+  background: black;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+    background: lightgreen;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+aside{
+  float : left;
+  border : 1px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding:0;
+  background-color: #eca8b5;
+  color:white;
+}
+
+aside #login{
+  margin : 10px;
+}
+
+aside #login a{
+  text-decoration: none;
+  color:white;
+}
+
+aside #login a:hover{
+  background-color: skyblue;
+  color:white;
+}
+
+article{
+  margin-top: 5px;
+  margin-left: 260px;
+  width: 70%;
+  float: left;
+}
+
+footer{
+  width:100%;
+  clear:both;
+  height: 100px;
+  color: black;
+}
+
+fieldset{
+  border-color:white;
+  margin:6px;
+}
+
+fieldset legend{
+  border: 3px;
+}
+
+label{
+  align : center;
+}
+
+
+
+
+
+
+div#one{
+  animation-iteration-count:infinite;
+}
+  @-webkit-keyframes myanim{
+
+    0% {
+      top:800px;
+      left:2100px;
+      background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+
+    }
+
+    12.5%{
+      top:800px;
+      left:750px;
+        background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    25%{
+      top:500px;
+      left:1550px;
+      background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    37.5%{
+      top:300px;
+      left:450px;
+      background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    50%{
+      top:400px;
+      left:350px;
+        background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    62.5%{
+      top:300px;
+      left:250px;
+        background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    75%{
+      top:500px;
+      left:150px;
+        background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    87.5%{
+      top:100px;
+      left:200px;
+        background-color: skyblue;
+      -webkit-animation-timing-function:ease-out;
+    }
+
+    100%{
+      top:800px;
+     left:300px;
+       background-color: skyblue;
+     -webkit-animation-timing-function:ease-out;
+    }
+
+
+  }
+  div#one{
+    position:absolute;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    -webkit-animation-name: myanim;
+    -webkit-animation-iternation-count:infinite;
+    -webkit-animation-duration:6s;
+  }
+
+  img#two{
+    animation-iteration-count:infinite;
+  }
+    @-webkit-keyframes myanimm{
+
+      0% {
+        top:800px;
+        left:2000px;
+        -webkit-animation-timing-function:ease-out;
+
+      }
+
+      12.5%{
+        top:800px;
+        left:650px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      25%{
+        top:500px;
+        left:1450px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      37.5%{
+        top:300px;
+        left:350px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      50%{
+        top:400px;
+        left:250px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      62.5%{
+        top:300px;
+        left:150px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      75%{
+        top:500px;
+        left:50px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      87.5%{
+        top:100px;
+        left:100px;
+        -webkit-animation-timing-function:ease-out;
+      }
+
+      100%{
+        top:800px;
+       left:200px;
+       -webkit-animation-timing-function:ease-out;
+      }
+
+
+    }
+    img#two{
+      position:absolute;
+      width:250px;
+      height:150px;
+      border-radius: 50px;
+      -webkit-animation-name: myanimm;
+      -webkit-animation-iternation-count:infinite;
+      -webkit-animation-duration:6s;
+    }
